@@ -6,6 +6,8 @@ CreatorSpy is a simple dashboard built with [Next.js](https://nextjs.org) that s
 - Select a creator to compare against a benchmark
 - Charts for consistency, engagement and more
 - Fake improvement insights for experimentation
+- Embedded placeholder avatars for offline demos
+- No external images; avatars are inline SVG data URIs
 
 ## Getting Started
 

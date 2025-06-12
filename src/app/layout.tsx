@@ -1,10 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// Using system fonts to avoid external download issues
 import { PodcastProvider } from "@/context/PodcastContext";
 import Header from "@/components/Header";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CreatorSpy",
@@ -14,7 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 text-gray-900`}>
+      <body className="bg-gray-50 text-gray-900">
         <PodcastProvider>
           <Header />
           <div className="min-h-screen">{children}</div>
