@@ -1,18 +1,7 @@
 "use client";
 
 import { analyzeEpisodes, FeedInsights } from "@/lib/analyzeFeed";
-
-// Define PodcastFeed type here if not imported
-type Episode = {
-  title: string;
-  pubDate: string;
-};
-
-type PodcastFeed = {
-  title: string;
-  description: string;
-  episodes: Episode[];
-};
+import type { PodcastFeed } from "@/lib/types";
 
 type Props = {
   feed: PodcastFeed;

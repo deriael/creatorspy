@@ -7,7 +7,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/add", label: "Add Podcast" },
   { href: "/mypodcasts", label: "My Podcasts" },
-  { href: "/compare/internal", label: "Compare Podcasts" }, // 👈 New link
+  { href: "/compare/internal", label: "Compare Podcasts" },
 ];
 
 export default function Header() {
