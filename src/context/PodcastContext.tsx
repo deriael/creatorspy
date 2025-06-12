@@ -1,18 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, ReactNode } from "react";
-
-type Episode = {
-  title: string;
-  pubDate: string;
-};
-
-type PodcastFeed = {
-  title: string;
-  description: string;
-  episodes: Episode[];
-  url: string; // include original feed URL for later refetching
-};
+import type { PodcastFeed } from "@/lib/types";
 
 type PodcastContextType = {
   podcasts: PodcastFeed[];

@@ -3,18 +3,7 @@
 import { useState } from "react";
 import { analyzeEpisodes, FeedInsights } from "@/lib/analyzeFeed";
 import { usePodcastContext } from "@/context/PodcastContext";
-
-type Episode = {
-  title: string;
-  pubDate: string;
-};
-
-type PodcastFeed = {
-  title: string;
-  description: string;
-  episodes: Episode[];
-  url: string;
-};
+import type { PodcastFeed } from "@/lib/types";
 
 export default function AddPodcastPage() {
   const [rssUrl, setRssUrl] = useState("");

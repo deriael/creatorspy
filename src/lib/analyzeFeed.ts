@@ -1,7 +1,4 @@
-type Episode = {
-  title: string;
-  pubDate: string;
-};
+import type { Episode } from "./types";
 
 export type FeedInsights = {
   episodeCount: number;

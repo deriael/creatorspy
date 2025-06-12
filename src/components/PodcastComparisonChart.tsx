@@ -1,4 +1,3 @@
-// src/components/PodcastComparisonChart.tsx
 "use client";
 
 import { FeedInsights } from "@/lib/analyzeFeed";

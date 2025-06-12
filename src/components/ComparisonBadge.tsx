@@ -1,4 +1,3 @@
-// src/components/ComparisonBadge.tsx
 import { Check, X } from "lucide-react";
 
 type Props = {
