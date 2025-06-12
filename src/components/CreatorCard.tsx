@@ -1,5 +1,4 @@
 import { Creator } from "@/lib/fakeData";
-import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
@@ -33,12 +32,11 @@ export default function CreatorCard({ creator }: Props) {
         {/* Avatar + Name */}
         <div className="flex items-center gap-4">
           <div className="relative h-16 w-16">
-            <Image
+            <img
               src={creator.avatar}
               alt={creator.name}
-              fill
-              sizes="64px"
-              className="rounded-full object-cover"
+              className="rounded-full object-cover w-16 h-16"
+              loading="lazy"
             />
           </div>
           <div>

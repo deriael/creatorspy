@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+CreatorSpy is a simple dashboard built with [Next.js](https://nextjs.org) that showcases how podcasters can compare their shows against top creators.
+
+## Features
+
+- Static dashboard of sample creators
+- Select a creator to compare against a benchmark
+- Charts for consistency, engagement and more
+- Fake improvement insights for experimentation
+- Embedded placeholder avatars for offline demos
+- No external images; avatars are inline SVG data URIs
 
 ## Getting Started
 
